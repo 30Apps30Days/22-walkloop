@@ -1,0 +1,75 @@
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body {
+  /* prevent callout to copy image, etc when tap to hold */
+  -webkit-touch-callout: none;
+
+  /* prevent webkit from resizing text to fit */
+  -webkit-text-size-adjust: none;
+
+  /* prevent copy paste, to allow, change 'none' to 'text' */
+  -webkit-user-select: none;
+
+  background-color: #E4E4E4;
+  background-attachment: fixed;
+
+  font-size: 12px;
+  font-family:
+    'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  position: fixed;
+  right: 1em;
+  left: 1em;
+  bottom: 1em;
+  text-align: center;
+}
+
+footer a {
+  color: #00BCD4;
+  font-weight: bold;
+}
+
+#app {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#options {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#options label {
+  display: block;
+}
+
+.mdl-layout__content { overflow: hidden; }
+
+.center-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  max-width: 90%;
+  max-height: 90%;
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+  vertical-align: center;
+}

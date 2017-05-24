@@ -1,0 +1,22 @@
+{
+  "name": "walkloop",
+  "homepage": "https://github.com/30Apps30Days/22-walkloop",
+  "authors": [
+    "The Metaist <metaist@metaist.com>"
+  ],
+  "description": "Find a loop to walk/run near you.",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.3.0"
+  }
+}
